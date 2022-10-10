@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+*{
+    box-sizing: border-box;
+    margin  : 0;
+    padding :0;
+}
+body{
+    background-color:#EAB676;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.main-heading{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 36px;
+    font-family: kurale;
+    color: #326F28;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.inout-text{
+
+}
+
+#input{
+margin-left: 50%;
+transform: translate(-50%);
+width: 526px;
+height: 35px;
+border: none;
+margin-top: 1rem;
+background: #D9D9D9;
+border-radius: 7px;
+}
+input[type="text"]{
+    font-family: cursive;
+}
+.button{
+    height:45px;
+    background-color:#D9D9D9;
+    cursor: pointer;
+    width: 11%;
+    border-radius: 4px;
+    margin-left: 50%;;
+    transform: translate(-50%);
+    margin-top: 1%;
+    font-family: 'Kurale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+
+text-align: center;
+
+color: #9F0E0E;
+}
+.encrypt-button{
+
+}
+.copy-button{
+
+}
+.guide-text{
+    position: relative;
+    height: 35px;  
+    margin-left: 39%;
+    transform: translate(-50%);
+    font-family: 'Kurale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center; 
+    color: #B60909;
+    margin-bottom: 0;
+}
+.output-box{
+    margin-left: 50%;
+    margin-top: 1rem;
+    transform: translate(-50%);
+    border: 0;
+
+}
