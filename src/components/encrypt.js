@@ -57,6 +57,8 @@ function encrypter(string) {
     "Y",
     "Z",
     "k",
+    ",",
+    "."
   ];
   var encryptedArray = [];
   var arr = [];

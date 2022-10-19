@@ -20,7 +20,7 @@ const Input = () => {
   return (
     <div>
       <GuideText guide="Enter your message" />
-      <input type="text" className="box" onChange={change} />
+      <textarea type="text" className="box" onChange={change} />
       <br />
       <Button buttonClass="button" onClick={updateClick} buttonName="Encrypt" />
       <br />

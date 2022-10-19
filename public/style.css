@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  background-color: #25316d;
+  background-color: #372948;
 }
 .wrapper {
   border-radius: 1rem;
@@ -34,6 +34,7 @@ body {
 }
 
 .box {
+  word-wrap: break-word;
   width: 60vw;
   height: 5rem;
   border: none;
@@ -49,6 +50,8 @@ body {
   min-height: 5rem;
   border-radius: 7px;
   margin-bottom: 3rem;
+  word-wrap:break-word;
+
 }
 input[type="text"] {
   font-family: sans-serif;
