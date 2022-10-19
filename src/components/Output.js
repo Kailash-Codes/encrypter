@@ -1,12 +1,12 @@
-import React from 'react'
-import GuideText from './GuideText';
-const Output = () => {
+import GuideText from "./GuideText";
+import Input from "./Input";
+const Output = (props) => {
   return (
     <div>
-        <GuideText guide="Encrypted Message" />
-        <textarea  className='output-box'></textarea>
+      <GuideText guide="Encrypted Message" /><br/>
+      <p className="out-box" >{props.value}</p>
     </div>
-  )
-}
+  );
+};
 
 export default Output;
